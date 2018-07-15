@@ -1,0 +1,26 @@
+{
+  "name": "chat-with-web-socket-node",
+  "version": "1.0.0",
+  "description": "studies of node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satsnik/chat-with-web-socket-node.git"
+  },
+  "author": "Igor Baesse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satsnik/chat-with-web-socket-node/issues"
+  },
+  "homepage": "https://github.com/satsnik/chat-with-web-socket-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-validator": "^5.2.0"
+  }
+}
