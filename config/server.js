@@ -25,7 +25,7 @@ consign()
     .include('./app/routers')
     .then('./app/controllers')
     .then('./app/models')    
-    .then('./app/public')
+   
     .into(app)
 
 /* export express */ 
