@@ -24,8 +24,7 @@ app.use(express_validator())
 consign()
     .include('./app/routers')
     .then('./app/controllers')
-    .then('./app/models')    
-   
+    .then('./app/models')   
     .into(app)
 
 /* export express */ 
